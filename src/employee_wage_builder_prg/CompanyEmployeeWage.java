@@ -4,19 +4,6 @@ public class CompanyEmployeeWage {
 	
 	private final String company;
 	private final int empRatePerHour;
-
-	public int getEmpRatePerHour() {
-		return empRatePerHour;
-	}
-
-	public int getNumOfWorkingDays() {
-		return numOfWorkingDays;
-	}
-
-	public int getMaxHoursPerMonth() {
-		return maxHoursPerMonth;
-	}
-
 	private final int numOfWorkingDays;
 	private final int maxHoursPerMonth;
 	private int totalEmpWage;
@@ -30,6 +17,18 @@ public class CompanyEmployeeWage {
 
 	public void setTotalEmpWage(int totalEmpWage) {
 		this.totalEmpWage = totalEmpWage;
+	}
+
+	public int getEmpRatePerHour() {
+		return empRatePerHour;
+	}
+
+	public int getNumOfWorkingDays() {
+		return numOfWorkingDays;
+	}
+
+	public int getMaxHoursPerMonth() {
+		return maxHoursPerMonth;
 	}
 
 	@Override
